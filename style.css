@@ -1,6 +1,6 @@
 body {
 	background-color: rgba(0, 0, 0, 0.924);
-	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.924);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -60,4 +60,21 @@ h2 {
 	background-image: url(images/sakib2.png);
 	border-radius: 50%;
 	box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+.details {
+	padding-bottom: 20px;
+}
+
+.link-button {
+	text-decoration: none;
+	border: 2px solid white;
+	color: rgba(255, 255, 255, 0.924);
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+.link-button:hover {
+	background-color: rgba(83, 77, 77, 0.496);
 }
