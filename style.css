@@ -221,11 +221,26 @@ h2 {
 	.half-width {
 		width: 70%;
 	}
+
+
 }
 
 @media(max-width:450px) {
 	.link-button {
 		font-size: 12px;
 		padding: 8px 20px;
+	}
+
+	.footer-message {
+		font-size: 12px;
+
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 20px;
 	}
 }
