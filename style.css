@@ -90,10 +90,54 @@ h2 {
 	padding: 10px 40px;
 	border-radius: 5px;
 	font-weight: 700;
+	box-shadow: 4px 4px 15px rgb(0, 0, 0);
 	transition: all 0.5s ease;
 }
 
 .link-button:hover {
+	background-color: rgba(83, 77, 77, 0.496);
+	border-color: white;
+
+}
+
+.experience-title {
+	text-align: center;
+}
+
+.experience-items {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 7%;
+}
+
+.full-stack-dev {
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 15px;
+	border: 2px solid orange;
+	border-radius: 7px;
+	box-shadow: 5px 5px 20px rgb(0, 0, 0);
+	transition: all 1s ease;
+}
+
+.full-stack-dev:hover {
+	background-color: rgba(83, 77, 77, 0.496);
+	border-color: white;
+}
+
+.baby-web-dev {
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 15px;
+	border: 2px solid orange;
+	border-radius: 7px;
+	box-shadow: 5px 5px 20px rgb(0, 0, 0);
+	transition: all 1s ease;
+}
+
+.baby-web-dev:hover {
 	background-color: rgba(83, 77, 77, 0.496);
 	border-color: white;
 }
