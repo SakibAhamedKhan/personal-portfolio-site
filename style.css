@@ -223,4 +223,9 @@ h2 {
 	}
 }
 
-/* @media(max-width:690px) { */
+@media(max-width:450px) {
+	.link-button {
+		font-size: 12px;
+		padding: 8px 20px;
+	}
+}
